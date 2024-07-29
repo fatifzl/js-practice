@@ -1,0 +1,32 @@
+html{
+    font-size: 16px;
+}
+:root{
+    --primary-color:rgb(249, 76, 183);
+    --secondary-color:rgb(0, 191, 255);
+}
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 25rem;
+    gap: 1rem;
+}
+#box1{
+    height: 12.5rem;
+    width: 12.5rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+#box2{
+    height: 12.5rem;
+    width: 12.5rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+}
